@@ -1,0 +1,21 @@
+{
+  "referenceDate": "2026-10-11T08:00:00.000Z",
+  "brief": {
+    "product": "Pipeline CRM (synthetic example)",
+    "keywords": ["CRM"],
+    "sources": ["reddit"],
+    "budgetUsd": 0.1,
+    "maxResults": 10,
+    "days": 30,
+    "competitors": ["Salesforce"]
+  },
+  "records": [
+    { "title": "Looking for CRM recommendations for a small team", "body": "Our sales team needs a CRM this week. Budget is $50 per month.", "url": "https://www.reddit.com/r/sales/comments/demo001/", "author": "u/synthetic_buyer", "createdAt": "2026-10-10T08:00:00Z" },
+    { "title": "Looking for CRM recommendations for a small team", "body": "Our sales team needs a CRM this week.", "url": "https://old.reddit.com/r/sales/comments/demo001/duplicate/?utm_source=demo", "author": "u/synthetic_buyer", "createdAt": "2026-10-10T08:00:00Z" },
+    { "title": "Alternatives to Salesforce?", "body": "We are switching from Salesforce and comparing a simpler CRM for five sales reps.", "url": "https://www.reddit.com/r/sales/comments/demo002/", "author": "u/synthetic_team", "createdAt": "2026-10-07T08:00:00Z" },
+    { "title": "Can anyone recommend a CRM for invoicing?", "body": "Looking for a CRM for our small business.", "url": "https://www.reddit.com/r/smallbusiness/comments/demo003/", "author": "u/synthetic_requester", "createdAt": null },
+    { "title": "Try our new CRM free trial", "body": "Sign up for a demo today.", "url": "https://www.reddit.com/r/sales/comments/demo004/", "author": "u/synthetic_seller", "createdAt": "2026-10-10T08:00:00Z" },
+    { "title": "CRM recommendations", "body": "An old request outside the selected window.", "url": "https://www.reddit.com/r/sales/comments/demo005/", "author": "u/synthetic_old", "createdAt": "2025-01-01T08:00:00Z" },
+    { "title": "Looking for a coffee grinder", "body": "Any recommendations?", "url": "https://www.reddit.com/r/sales/comments/demo006/", "author": "u/synthetic_other", "createdAt": "2026-10-10T08:00:00Z" }
+  ]
+}

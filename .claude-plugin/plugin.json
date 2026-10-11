@@ -1,0 +1,19 @@
+{
+  "name": "buyer-intent-lead-finder",
+  "displayName": "Buyer Intent Lead Finder",
+  "version": "1.0.0",
+  "description": "Find buyer intent leads on Reddit, LinkedIn, and X. Discover public recommendation requests, competitor alternatives, and buying signals; rank conversations with source links, intent evidence, freshness, and product fit. Export deduplicated CSV lead lists and draft relevant replies. Skills-only CLI workflow for Claude Code, powered by Apify Actors. Apify account required for live searches; usage charges apply.",
+  "author": {
+    "name": "Khadin Akbar Ventures LLC",
+    "url": "https://github.com/khadinakbarlabs"
+  },
+  "homepage": "https://github.com/khadinakbarlabs/buyer-intent-lead-finder",
+  "repository": "https://github.com/khadinakbarlabs/buyer-intent-lead-finder",
+  "license": "MIT",
+  "keywords": ["buyer-intent", "lead-generation", "b2b-leads", "social-selling", "reddit-leads", "linkedin-prospecting", "purchase-intent", "competitor-alternatives", "social-listening", "apify", "claude-code"],
+  "icon": "./assets/icon.svg",
+  "documentationUrl": "https://github.com/khadinakbarlabs/buyer-intent-lead-finder#readme",
+  "supportUrl": "https://github.com/khadinakbarlabs/buyer-intent-lead-finder/issues",
+  "privacyPolicyUrl": "https://github.com/khadinakbarlabs/buyer-intent-lead-finder/blob/main/PRIVACY.md",
+  "termsOfServiceUrl": "https://github.com/khadinakbarlabs/buyer-intent-lead-finder/blob/main/TERMS.md"
+}

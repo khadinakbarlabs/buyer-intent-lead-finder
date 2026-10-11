@@ -1,0 +1,18 @@
+{
+  "name": "khadin-buyer-intent",
+  "owner": {
+    "name": "Khadin Akbar Ventures LLC"
+  },
+  "metadata": {
+    "description": "Buyer intent lead generation skills for Claude Code."
+  },
+  "plugins": [
+    {
+      "name": "buyer-intent-lead-finder",
+      "displayName": "Buyer Intent Lead Finder",
+      "description": "Find buyer intent leads on Reddit, LinkedIn, and X. Discover public recommendation requests, competitor alternatives, and buying signals; rank conversations with source links, intent evidence, freshness, and product fit. Export deduplicated CSV lead lists and draft relevant replies. Skills-only CLI workflow for Claude Code, powered by Apify Actors. Apify account required for live searches; usage charges apply.",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}

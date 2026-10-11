@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="Buyer Intent Lead Finder">
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0b142a"/><stop offset="1" stop-color="#1b2b4a"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#5af0c2"/><stop offset="1" stop-color="#38bfd8"/></linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="116" fill="url(#background)"/>
+  <circle cx="224" cy="222" r="126" fill="none" stroke="#30496a" stroke-width="4"/>
+  <circle cx="224" cy="222" r="82" fill="none" stroke="#30496a" stroke-width="4"/>
+  <circle cx="224" cy="222" r="120" fill="none" stroke="url(#accent)" stroke-width="26"/>
+  <path d="m313 313 95 95" fill="none" stroke="url(#accent)" stroke-linecap="round" stroke-width="34"/>
+  <path d="m174 225 36 36 72-79" fill="none" stroke="#f1fffc" stroke-linecap="round" stroke-linejoin="round" stroke-width="22"/>
+  <circle cx="344" cy="107" r="15" fill="#5af0c2"/>
+</svg>
