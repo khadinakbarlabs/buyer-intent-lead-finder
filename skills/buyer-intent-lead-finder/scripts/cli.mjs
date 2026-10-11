@@ -77,7 +77,7 @@ async function main(argv) {
   if (command === 'catalog') {
     result = { verifiedAt: '2026-10-11', actors: [] };
     for (const [source, actor] of Object.entries(ACTORS)) {
-      const item = { source, ...actor, actorUrl: `https://apify.com/${actor.name}`, runtimeCanary: 'Not run for this plugin' };
+      const item = { source, ...actor, actorUrl: `https://apify.com/${actor.name}`, runtimeCanary: 'This metadata command does not perform a runtime test' };
       if (options['--live']) {
         const response = await cliApi('GET', `/v2/acts/${actor.actorId}`);
         const a = response?.data;

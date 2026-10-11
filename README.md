@@ -109,6 +109,6 @@ Reports can contain public post text and pseudonyms. They are stored in your cho
 
 ## Validation and support
 
-From the source checkout, run `node --test tests/*.test.mjs` for offline tests and `claude plugin validate .claude-plugin/plugin.json --strict` for native manifest validation. Tests and development tools are not included in the install archive. These checks do not establish live Actor reliability, Anthropic security approval, or directory publication. Initial live Actor canaries and directory checks are recorded separately in the reviewer pack.
+From the source checkout, run `node --test tests/*.test.mjs` for offline tests and `claude plugin validate .claude-plugin/plugin.json --strict` for native manifest validation. Tests and development tools are not included in the install archive. The initial release verification passed 25 offline tests and one bounded live search on each of the three pinned Actor builds. See the [release verification record](skills/buyer-intent-lead-finder/references/release-verification.md) for evidence and limits. Anthropic security approval and directory publication remain separate.
 
 See [support](SUPPORT.md), [security](SECURITY.md), [privacy](PRIVACY.md), and [terms](TERMS.md). Licensed under MIT. This plugin is developed by Khadin Akbar Ventures LLC and is not affiliated with Anthropic, Reddit, LinkedIn, X, or Apify.
