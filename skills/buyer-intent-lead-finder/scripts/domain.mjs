@@ -2,9 +2,9 @@ import { createHash } from 'node:crypto';
 
 export const VERSION = '1.0.0';
 export const ACTORS = Object.freeze({
-  reddit: Object.freeze({ actorId: 'j1gQL2JlzmGKxrPzJ', name: 'khadinakbar/reddit-search-scraper', build: '1.0.5', buildId: 'kDtqTaEphsfHAwdfH', pricePerResult: 0.003, memory: 1024 }),
-  linkedin: Object.freeze({ actorId: 'yMNWUCINasvKFmMED', name: 'khadinakbar/linkedin-post-search-scraper', build: '1.0.11', buildId: 'aAGw0s76JbqJnDzJ7', pricePerResult: 0.005, memory: 512 }),
-  x: Object.freeze({ actorId: '6xhgv9qnX0z36Btrv', name: 'khadinakbar/x-twitter-search-scraper', build: '1.1.4', buildId: 'pZ39e8acQKkBii6H5', pricePerResult: 0.003, memory: 512 }),
+  reddit: Object.freeze({ actorId: 'j1gQL2JlzmGKxrPzJ', name: 'khadinakbar/reddit-search-scraper', url: 'https://apify.com/khadinakbar/reddit-search-scraper', build: '1.0.5', buildId: 'kDtqTaEphsfHAwdfH', pricePerResult: 0.003, memory: 1024 }),
+  linkedin: Object.freeze({ actorId: 'yMNWUCINasvKFmMED', name: 'khadinakbar/linkedin-post-search-scraper', url: 'https://apify.com/khadinakbar/linkedin-post-search-scraper', build: '1.0.11', buildId: 'aAGw0s76JbqJnDzJ7', pricePerResult: 0.005, memory: 512 }),
+  x: Object.freeze({ actorId: '6xhgv9qnX0z36Btrv', name: 'khadinakbar/x-twitter-search-scraper', url: 'https://apify.com/khadinakbar/x-twitter-search-scraper', build: '1.1.4', buildId: 'pZ39e8acQKkBii6H5', pricePerResult: 0.003, memory: 512 }),
 });
 
 const safeText = value => typeof value === 'string' ? value.replace(/[\u0000-\u0008\u000b\u000c\u000e-\u001f]/g, '').trim() : '';
